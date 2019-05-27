@@ -18,18 +18,7 @@ header {
     font-family: 'Baloo Bhai', cursive;
     padding: 0.5rem;
 
-header img{
-    display: inline-block
-    width: 75px;
-    height: auto;
-    vertical-align: middle;
-}
 
-.headertext {
-    margin-left: 0.5rem;
-    display: inline-block;
-    vertical-align: middle;
-}
 .forecast {
     position: absolute;
     top: 25px;
@@ -78,3 +67,21 @@ nav ul li a {
     display: block;
     align-content: center;
   }
+  .photo {
+      align-content: center;
+  }
+
+.forecast {
+    margin: 10px auto;
+	background-color: #41B3A3;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    padding: 0.5rem;
+}
+
+town-article {
+    width: 150px;
+  border: 1px solid black; 
+}
