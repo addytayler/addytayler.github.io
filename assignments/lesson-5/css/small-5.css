@@ -19,7 +19,7 @@ header {
     padding: 0.5rem;
 
 header img{
-    display: inline-block;
+    display: inline-block
     width: 75px;
     height: auto;
     vertical-align: middle;
@@ -61,6 +61,9 @@ nav {
     background-color: #e8a87c;
     text-align: center;
 }
+nav ul {
+    list-style-type: none;
+}
 nav ul li a {
     padding: .5rem;
     display: block;
@@ -71,23 +74,7 @@ nav ul li a {
     background: #000;
     color: #edf5e1;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-
-  li a {
+  footer { 
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+    align-content: center;
   }
