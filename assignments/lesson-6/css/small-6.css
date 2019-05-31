@@ -84,11 +84,11 @@ h2 {
 }
 
 .town-article {
+    padding-top: 15px;
     margin: auto;
     align-content: right;
     text-align: left;
     width: 50%;
-    border: 1px solid black; 
     background-color: #c38d9e
 }
 h3 {
@@ -120,6 +120,7 @@ h3 {
     width: 650px
 }
 .column {
+    padding-left: 40px;
     float: left;
     width: 50%;
     background-color: #c38d9e;
