@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Forever Weather | Town of Preston | Weather Conditions and Forecast</title>
+            <meta name="description"
+                content="The assignment preston-4 for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
+        <link href="assignments/css/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <link href="css/small-6.css" rel="stylesheet">
+        <link href="css/large-6.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/tempicon.png" alt="Forever Weather">
+            <h1>Forever Weather</h1>
+            <div class="motto">Get your weather here forever!</div>
+        </header>
+        <nav>
+            <div class= "site-navigation">
+                <ul>
+                    <li><a href="#">&equiv; Menu</a></li>
+                    <li><a class="inactive" href="home-4.html">Home</a></li>
+                    <li><a class="active" href="preston-4.html">Preston</a></li>
+                    <li><a class="inactive" href="sodasprings-4.html">Soda Springs</a></li>
+                    <li><a class="inactive" href="fishhaven-4.html">Fish Haven</a></li>
+                    <li><a class="inactive" href="stormcenter-4.html">Storm Center</a></li>
+                    <li><a class="inactive" href="gallery-4.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class= "mainheader">
+                
+                <section class="weathersummary">
+                        
+                    <div class ="weatherdetails">
+                        <h3>Weather Summary</h3><br>
+                        <p class="label">Currently: <span class="value">Sunny</span></p><br>
+                        <p class="label">High: <span class="value">76 &deg;F</span><br><br>
+                        <p class="label">Wind Chill: <span  class="value">&deg;F</span><br><br>
+                        <p class="label">Humidity: <span  class="value">69%</span><br><br>
+                        <p class="label">Wind Speed: <span class="value">5 mph</span><br><br>
+                    </div>
+                </section>
+                <img src="images/preston_large.jpg" alt="Preston Town" class="photo">
+            </div><br><br><br>
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>89&deg;F</td>
+                            <td><img src="images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>87&deg;F</td>
+                            <td><img src="images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>78&deg;F</td>
+                            <td><img src="images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>75&deg;F</td>
+                            <td><img src="images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>72&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section><br><br><br>
+
+            <article class="town-article">
+                <h3>Founders Day Fresco</h3>
+                <p>by Janica Juarez</p>
+                <article id="article">
+                    <p>I was recently reflection upon the founders day event held at Foundation Park each year. I have been taking the festival for granted and have not been properly engaging in perhaps the most popular event of the year. In response, I contacted Ms. Sharon via email and expressed my desire to serve on the event committee. Well, you guessed it, the phone rings almost immediately and she promptly asks me to be the event committee chair. Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers and sponsors has escalated beyond what I thought I could feel for such a thing and...</p>
+                    <picture>
+                        <img src="images/article.png" alt="image" align:right>
+                    </picture>
+                </article>
+            </section>
+        </main><br><br><br>
+        <div class="contactsection">
+            <strong>Forever Weather</strong><br>
+            <br> <img class="smallesticon" src="images/location.png" alt="location pointer link" align:middle><br>
+            &nbsp;30 N 1st E
+            <br> Preston, ID 83263
+            <br>
+            <br> &phone; &nbsp; 999.999.9999
+            <br> &#9993: &nbsp; foreverweather@tws.com
+            <br></br>
+            <img class="smallicon" src="images/facebook.png" alt="facebook link">
+            <img class="smallicon" src="images/pinterest.png" alt="pinterest link">
+            <img class="smallicon" src="images/twitter.png" alt="twitter link">
+        </div>
+        <footer>
+            <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>
+                <span id="currentdate"></span>
+                <script src="script/currentdate.js"></script>
+            </p>
+        </footer>
+        <script src="js/toggleMenu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+var currentDate = new Date();
+var weekday = currentDate.getDay();
+var weekdayName= new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+var month= currentDate.getMonth();
+var monthName= new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+var day = currentDate.getDay();
+var year = currentDate.getFullYear();
+var today = weekdayName[weekday]+ ', ' + day + ' ' + monthName[month] + ' ' + year;
+document.getElementById("currentdate").innerHTML= today; 
