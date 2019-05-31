@@ -9,6 +9,7 @@
     .headertext {
         margin-left: 4rem;
     }
-    
-    
+      .navigation li:first-child { display: none;}
+        .navigation li { display: inline-block; margin-right: 1rem;}	
+        .navigation li a { color: yellow;}
     }

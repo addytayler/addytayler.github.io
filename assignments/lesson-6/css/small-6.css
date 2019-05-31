@@ -82,15 +82,17 @@ h2 {
     text-align: center;
     margin: 20px;
 }
+
 .town-article {
     margin: auto;
+    align-content: right;
     text-align: left;
-    width: 70%;
+    width: 50%;
     border: 1px solid black; 
     background-color: #c38d9e
 }
 h3 {
-    text-align: center;
+    text-align: left;
 }
 .weatherdetails {
     text-align: center;
@@ -102,11 +104,6 @@ h3 {
 }
 .value {
     color: green;
-}
-#article {
-    margin-left: 400px;
-    display: block;
-    text-align: left;
 }
 .contactsection {
     margin-left: 400px;
@@ -122,3 +119,9 @@ h3 {
     text-align: center;
     width: 650px
 }
+.column {
+    float: left;
+    width: 50%;
+    background-color: #c38d9e;
+    margin-bottom: 50px;
+  }
