@@ -31,14 +31,29 @@
             </div>
         </nav>
         <main>
-                <section id="gallery">
-                <img class="rainbow" src="../../images/rainbow.png" alt="rainbow">
-                <img class="rain" src="../../images/raining.png" alt="rain">
-                <img class="snow" src="../../images/snowing.png" alt="snow">
-                <img class="sun" src="../../images/sunnypic.png" alt="sun">
-                <img class="fog" src="../../images/fog.png" alt="fog">
-                <img class="overcast" src="../../images/overcast.png" alt="overcast">
-                </section>
+            <div class="container">
+                <figure>
+                    <img class="rainbow" src="../../images/rainbow.png" alt="rainbow">
+                    <figcaption>:hover pseduo-class box-shadow</figcaption>
+                </figure>
+                <figure><img class="rain" src="../../images/raining.png" alt="rain">
+                    <figcaption>border-radius</figcaption>
+                </figure>
+                <figure><img class="snow" src="../../images/snowing.png" alt="snow">
+                    <figcaption>opacity</figcaption>
+                </figure>
+                <figure><img class="sun" src="../../images/sunimage.png" alt="sun">
+                    <figcaption>filter: blur and grayscale</figcaption>
+                </figure>
+                <figure><img class="fog" src="../../images/fog.png" alt="fog">
+                    <figcaption>object-fit<br>☼ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
+                </figure>
+                <figure><img class="overcast" src="../../images/overcast.png" alt="overcast">
+                    <figcaption>shape-outside<br> Applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status.
+                        <br><br>☼ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">CSS Error Handling Discussion</a></figcaption>
+                </figure>
+            </div>
+
         </main><br><br><br>
         <div class="contactsection">
             <strong>Forever Weather</strong><br>
@@ -63,3 +78,4 @@
         <script src="windchill.js"></script>
     </body>
 </html>
+
