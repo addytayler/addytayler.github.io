@@ -125,8 +125,16 @@ h3 {
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 
-img { width: 300px; height: auto; margin: .5rem;}
+.rainbow { width: 300px; height: auto; margin: .5rem;}
+.rain { width: 300px; height: auto; margin: .5rem;}
+.snow { width: 300px; height: auto; margin: .5rem;}
+.fog { width: 300px; height: auto; margin: .5rem;}
+.overcast { width: 300px; height: auto; margin: .5rem;}
+.sun { width: 300px; height: auto; margin: .5rem;}
+img {background-clip: green;}
 figcaption {font-size: smaller;}
+figcaption {background-color: #e8a87c;}
+figcaption {text-align: center;}
 .norm:hover {box-shadow: 0 0 50px #333;}
 .rocorn {border-radius: 5px 150px;}
 .opac {opacity: .5;}
