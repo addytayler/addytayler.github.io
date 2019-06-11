@@ -1,7 +1,7 @@
 * { 
     box-sizing: border-box;
-    margin:0;
     padding: 0;
+    margin: 0;
     line-height: 1
 }
 body {
@@ -57,7 +57,7 @@ nav ul li a {
     padding: .5rem;
     display: inline-block;
     text-decoration: none;
-    color: #c38d9e;
+    color: black;
 }
 .active {
     background: #000;
@@ -138,7 +138,6 @@ h4 {
 .fog { width: 300px; height: auto; margin: .5rem;}
 .overcast { width: 300px; height: auto; margin: .5rem;}
 .sun { width: 300px; height: auto; margin: .5rem;}
-img {background-clip: green;}
 figcaption {font-size: smaller;}
 figcaption {background-color: #e8a87c;}
 figcaption {text-align: center;}
