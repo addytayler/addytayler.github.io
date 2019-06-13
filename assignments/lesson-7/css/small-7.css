@@ -11,31 +11,44 @@ body {
 }
 header {
 	margin: 10px auto;
-	background-color: #41B3A3;
+    background-color: #41B3A3;
+    color: #f5f5f5;
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
     text-align: center;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: monospace;
     padding: 0.5rem;
+}
+header, nav, footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tempicon {
+    font-size: .70em;
+    margin: 15px;
+}
+h1 {
+    display: block;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
 }
 .forecast {
     margin-left: 512px;
 	background-color: #41B3A3;
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: monospace;
     padding: 0.5rem;
     display: inline-block;
     text-align: center;
 }
-h1 {
-    font-size: 1.5rem;
-    text-shadow: rgba(red, green, blue, alpha) 3px 3px 3px
-}
 .motto {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: rgba(0, 87, 25);
-    font-style: italic;
+    font-family: monospace;
 }
 .logo, .headings {
     display: inline-block;
@@ -49,6 +62,10 @@ nav {
 }
 nav ul {
     list-style-type: none;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    padding-inline-start: 20px;
 }
 nav ul li{
     display: inline;
@@ -73,39 +90,78 @@ nav ul li a {
       margin-left: auto;
       margin-right: auto;
   }
-h2 {
+  h2 {
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px white;
+    padding: 1.5rem;
     text-align: center;
-    margin: 20px;
-}
-
-.town-article {
-    padding-top: 15px;
-    margin: auto;
-    align-content: right;
-    text-align: left;
-    width: 50%;
-    background-color: #c38d9e
 }
 h3 {
-    text-align: left;
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
-.weatherdetails {
+.weathersummary{
     text-align: center;
-    background-color: #e8a87c;
-    display: inline-block;
     position: absolute;
-    margin-left: 240px;
-    margin-top: 100px;
+    top: 25px;
+    left: 25px;
+    background-color: #e8a87c;;
+    border: 1px solid #07304b;
+    padding: .8rem;
+}
+#fiveDayForecast {
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 0.2rem;
+}
+.forecastDetails {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    margin: auto;
+}
+.Wed, .Thu, .Fri, .Sat, .Sun {
+    flex: 1 1 100%;
+    border-top: 1px solid #07304b;
+    border-bottom: 1px solid #07304b;
+    border-left: 1px solid #07304b;
+    background-color: #a3e1f8;
+    font-size: 16px;
+    text-align: center;
+}
+.town-article {
+    padding: 15px;
+    margin: 12px auto 6px;
+    text-align: left;
+    border: 2px solid black;;
+    line-height: 1rem;
+    width: 50%;
+    background-color: powderblue;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .value {
     color: green;
 }
 .contactsection {
-    margin-left: 400px;
-    background-color: #41B3A3;
+    padding: 3rem;
     display: inline-block;
-    text-align: center;
-    Width: 650px
+    text-align: left;
+    line-height: 1rem;
+    border: 2px solid black;;
+    width:650px;
+    margin-left: 400px;
+    margin-top: 15px;
+    background-color: yellowgreen;
+}
+P2 {
+    font-size: 1.5rem;
 }
 .footer-bar {
     margin-left: 400px;
@@ -114,20 +170,20 @@ h3 {
     text-align: center;
     width: 650px
 }
-.column {
-    padding-left: 40px;
+.location {
     float: left;
-    width: 50%;
-    background-color: #c38d9e;
-    margin-bottom: 50px;
-  }
-
+}
+.smallicon {
+    width: 50px;
+    padding: 10px;
+}
 h4 {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
     text-align: center;
-    font-size: 2rem;
-    color: black;
-    font-style: times;
-    margin-top: 20px;
+    padding: 5px;
 }
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}

@@ -12,14 +12,16 @@
     </head>
     <body>
         <header>
-            <img src="../../images/tempicon.png" alt="Forever Weather">
-            <h1>Forever Weather</h1>
+            <img id="tempicon" src="../../images/tempicon.png" alt="Forever Weather">
+           <div class="headings">
+               <h1>Forever Weather</h1>
             <div class="motto">Get your weather here forever!</div>
+            </div>
         </header>
         <nav>
             <div class= "site-navigation">
                 <ul>
-                    <li><a href="#">&equiv; Menu</a></li>
+                    <li><a href="#" class="menu" onclick="toggleMenu()">≡ Menu</a></li>
                     <li><a class="inactive" href="home-4.html">Home</a></li>
                     <li><a class="active" href="preston-7.html">Preston</a></li>
                     <li><a class="inactive" href="sodasprings-4.html">Soda Springs</a></li>
@@ -32,32 +34,33 @@
         <main>
             <h2>Preston Idaho</h2>
             <div class= "mainheader">
-                
                 <section class="weathersummary">
-                        
-                    <div class ="weatherdetails">
                         <h3>Weather Summary</h3><br>
                         <p class="label">Currently: <span class="value">Sunny</span></p><br>
                         <p class="label">High: <span class="value" id="temperature">76</span><span class="value"> &deg;F</span><br><br>
                         <p class="label">Wind Chill: <span  class="value" id="windChill"> &deg;F</span><br><br>
                         <p class="label">Humidity: <span  class="value">69%</span><br><br>
                         <p class="label">Wind Speed: <span class="value" id="windSpeed">5</span><span class="value"> mph</span><br><br>
-                    </div>
                 </section>
-                <img src="../../images/preston_large.jpg" alt="Preston Town" class="photo">
-            </div><br><br><br>
+                <picture>
+                        <source media="(max-width: 599px)" srcset="../../images/preston_small.jpg">
+                        <source media="(min-width: 600px)" srcset="../../images/preston_large.jpg">
+                    <img src="../../images/preston_large.jpg" alt="Preston Town" class="photo">
+                </picture>
+            </div>
+            <h3 id="fiveDayForecast">5 Day Forecast</h3>
             <section class="forecast">
-                <h3>5 Day Forecast</h3>
                 <table>
-                    <thread>
+                    <div class="forecastDetails" thead>
                         <tr>
-                            <th>Wed</th>
-                            <th>Thu</th>
-                            <th>Fri</th>
-                            <th>Sat</th>
-                            <th>Sun</th>
+                            <th div class="Wed">Wed</th></div>
+                            <th div class="Thu">Thu</th></div>
+                            <th div class="Fri">Fri</th></div>
+                            <th div class="Sat">Sat</th></div>
+                            <th div class="Sun">Sun</th></div>
                         </tr>
-                    </thread>
+                    </thead>
+                    </div>
                     <tbody>
                         <tr>
                             <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>89&deg;F</td>
@@ -84,19 +87,24 @@
                     </picture>
                 </article>
             </section>
-        </main><br><br><br>
+        </main>
         <div class="contactsection">
             <strong>Forever Weather</strong><br>
-            <br> <img class="smallesticon" src="../../images/location.png" alt="location pointer link" align:middle><br>
-            &nbsp;30 N 1st E
+            <br> <img class="location" src="../../images/location.png" alt="location pointer link" align:middle>
+            <p2>&nbsp;30 N 1st E
             <br> Preston, ID 83263
             <br>
             <br> &phone; &nbsp; 999.999.9999
             <br> &#9993: &nbsp; foreverweather@tws.com
-            <br></br>
-            <img class="smallicon" src="../../images/facebook.png" alt="facebook link">
-            <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link">
-            <img class="smallicon" src="../../images/twitter.png" alt="twitter link">
+            <br>
+            <div class="media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="smallicon" src="../../images/facebook.png" alt="facebook link"></a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                    <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link"></a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img class="smallicon" src="../../images/twitter.png" alt="twitter link"></p2></a>
+            </div>
         </div>
         <footer>
             <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>

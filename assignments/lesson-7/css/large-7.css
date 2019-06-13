@@ -14,9 +14,9 @@
         .navigation li a { color: yellow;}
     }
 
-.rainbow { width: 150px; height: auto; margin: .5rem;}
-.rain { width: 150px; height: auto; margin: .5rem;}
-.snow { width: 150px; height: auto; margin: .5rem;}
-.fog { width: 150px; height: auto; margin: .5rem;}
-.overcast { width: 150px; height: auto; margin: .5rem;}
-.sun { width: 150px; height: auto; margin: .5rem;}
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        padding: 10px;
+        grid-auto-rows: 300px 300px 300px;
+    }
