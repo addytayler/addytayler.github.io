@@ -1,5 +1,14 @@
+@media only screen and (min-width: 32.5em) {
 .location {
     float: left;
     width: 33%;
     padding: 10px;
+}
+.tempicon {
+    width: 150px;
+}
+.weathersummary{
+    top: 100px;
+    left: 180px;
+}
 }
