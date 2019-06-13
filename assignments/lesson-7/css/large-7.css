@@ -1,25 +1,16 @@
-@media only screen and (max-width: 32.5em) {
-
-    header img {
-        width: 150px;
-    }
+@media only screen and (min-width: 64em) {
+    /*****header*****/
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
-    .headertext {
-        margin-left: 4rem;
+    .motto {
+        font-size: 1.2rem;
     }
-    .container {
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        padding: 10px;
-        grid-auto-rows: 300px 300px 300px;
+    /*****Gallery*****/
+    .imagegallery {
+    grid-template-columns: 1fr 1fr 1fr;
     }
-    .weathersummary{
-        top: 500px;
-        left: 10px;
-    }
-    header {
-        max-width: 32.5;
+    .shadow:hover {
+        box-shadow: 0 0 50px #0e6096;
     }
 }
