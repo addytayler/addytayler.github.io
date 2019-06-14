@@ -188,6 +188,14 @@ h4 {
     text-align: center;
     padding: 5px;
 }
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    padding: 10px;
+}
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 
