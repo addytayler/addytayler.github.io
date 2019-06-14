@@ -215,7 +215,7 @@ figure {
     margin-bottom: 16px;
     resize: vertical;
 }
-#stormType, #region{
+.stormType, #region{
     width: 30%;
     padding: 12px;
     border: 2px solid black;
