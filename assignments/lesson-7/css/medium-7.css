@@ -1,22 +1,20 @@
 @media only screen and (min-width: 32.5em) {
-    /*****header*****/
     .tempicon {
         width: 150px;
     }
     h1 {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
     }
     .motto {
         font-size: 1.05rem;
     }
-    /*****navigation******/
     .nav li:first-child {
         display: none;
     }
     .nav li {
         display: inline-block;
         margin-right: .75rem;
-        list-style-type: none;
+        list-style-type: none; 
     }
     .nav{
         flex-direction: row;
