@@ -9,31 +9,27 @@ html {
     margin: 0 auto;
   }
   
-  h1, h2 {
-    font-family: 'Faster One', cursive;
-  }
-  
-  /* header styles */
-  
   h1 {
-    font-size: 4rem;
+    font-family: 'Faster One', cursive;
+    font-size: 3rem;
     text-align: center;
   }
   
+  h2 {
+    font-family: 'Faster One', 'cursive';
+  }
   header p {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-    background-color: yellow;
+    background-color: red;
   }
-  
-  /* section styles */
   
   section article {
     width: 232px;
     height: 400px;
     float: left;
-    border: 2px dotted black;
+    border: 2px solid red;
     padding: 15px;
   }
   
