@@ -12,3 +12,7 @@
         box-shadow: 0 0 50px #0e6096;
     }
 } 
+
+#images > div {
+    display: inline-block;
+}
