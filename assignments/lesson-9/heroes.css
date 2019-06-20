@@ -1,14 +1,10 @@
-/* || general styles */
-
 html {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
   }
-  
   body {
     width: 800px;
     margin: 0 auto;
   }
-  
   h1 {
     font-family: 'Faster One', cursive;
     font-size: 3rem;
@@ -17,6 +13,9 @@ html {
   
   h2 {
     font-family: 'Faster One', 'cursive';
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
   }
   header p {
     font-size: 1.3rem;
@@ -24,25 +23,11 @@ html {
     text-align: center;
     background-color: red;
   }
-  
   section article {
-    width: 232px;
-    height: 400px;
+    width: 220px;
+    height: 410px;
     float: left;
     border: 2px solid red;
-    padding: 15px;
+    padding: 21px;
   }
-  
-  section p {
-    margin: 5px 0;
-  }
-  
-  section ul {
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 2.5rem;
-    letter-spacing: -5px;
-    margin-bottom: 10px;
-  }
+ 
