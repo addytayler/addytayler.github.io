@@ -11,13 +11,10 @@
     .shadow:hover {
         box-shadow: 0 0 50px #0e6096;
     }
-    #images > div { 
-    display: inline-block;
-    }
-    .townImages {
+    .homePage {
         display: grid;
-        grid-auto-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 10px;
+        padding: 20px;
+        grid-auto-rows: 1fr 1fr 1fr;
     }
 }

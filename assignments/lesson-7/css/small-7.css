@@ -259,13 +259,8 @@ h5 {
     padding: 0.5rem;
     max-width: 50%;
 }
-h6 {
-    font-size: 28px;
-    color: #4c8008;
-    font-weight: bold;
-    text-align: center;
-}
-.townImages { 
+
+.homePage{
     display: grid;
     grid-auto-rows: 1fr;
     grid-auto-columns: 1fr;
@@ -274,10 +269,6 @@ h6 {
     padding: 10px;
     margin: 10px;
     grid-gap: 10px;
-}
-.homepage {
-    text-align: center;
-    display: block;
 }
 .navigation li {
     display: none;
@@ -292,10 +283,22 @@ nav a:hover {
 #franklins, #greenvilles, #springfields {
     border: 4px solid black;
 }
-
+#SodaSpringsName, #PrestonName, #FishHavenName {
+    font-size: 28px;
+    font-family: monospace;
+    color: #4c8008;
+    font-weight: bold;
+    text-align: center;
+}
+#SodaSpringsMotto, #PrestonMotto, #FishHavenMotto {
+    font-size: 14px;
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
-
 .rainbow { width: 300px; height: auto; margin: .5rem;}
 .rain { width: 300px; height: auto; margin: .5rem;}
 .snow { width: 300px; height: auto; margin: .5rem;}
