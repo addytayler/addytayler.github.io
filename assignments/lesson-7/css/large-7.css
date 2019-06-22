@@ -11,8 +11,13 @@
     .shadow:hover {
         box-shadow: 0 0 50px #0e6096;
     }
-} 
-
-#images > div { 
+    #images > div { 
     display: inline-block;
+    }
+    .townImages {
+        display: grid;
+        grid-auto-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+    }
 }
