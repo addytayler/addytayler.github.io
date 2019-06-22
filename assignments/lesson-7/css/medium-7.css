@@ -19,7 +19,6 @@
     .nav{
         flex-direction: row;
     }
-    /*****Forecast*****/
     .forecast {
         display: inline;
         margin: auto;
@@ -35,8 +34,6 @@
     .summary {
         padding: 1.5rem;
     }
-
-    /*****Article*****/
     .main-article {
         display: inline-block;
     }
@@ -47,7 +44,6 @@
         width: 33%;
         padding: 5px;
     }
-    /*****Footer*****/
     .map {
         float: left;
         width: 33%;
@@ -57,7 +53,6 @@
         margin: 20px auto;
         font-size: 1em;
     }
-    /*****Gallery*****/
     .imagegallery {
     grid-template-columns: 1fr 1fr;
     }
