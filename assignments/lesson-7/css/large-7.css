@@ -13,6 +13,6 @@
     }
 } 
 
-#images > div {
+#images > div { 
     display: inline-block;
 }

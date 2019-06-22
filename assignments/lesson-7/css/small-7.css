@@ -267,7 +267,7 @@ nav a:hover {
     color: #07304b;
 }
 .responsive li {
-    display: block;
+    display: block; 
 }
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 

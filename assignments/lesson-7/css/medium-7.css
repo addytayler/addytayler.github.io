@@ -11,7 +11,7 @@
     .nav li:first-child {
         display: none;
     }
-    .nav li {
+    .nav li { 
         display: inline-block;
         margin-right: .75rem;
         list-style-type: none; 
