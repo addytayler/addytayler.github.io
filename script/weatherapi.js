@@ -21,7 +21,7 @@ weatherRequest.onload =  function () {
     for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.includes("18:00:00")) {
             document.getElementById('degreeforecast' +count).innerHTML=forecastData.list[i].main.temp_max;
-            document.getElementById('imgforecast'+count).setAttribute('src', "https://openweathermap.org/img/w/"+forecastData.weather[0] + ".png");
+            document.getElementById('imgforecast'+count).setAttribute('src', "https://openweathermap.org/img/w/"+weatherData.weather[0] + ".png");
             document.getElementById('dayforecast' +count).innerHTML=weekday[(new Date().getDay()+count-1)%7];
             count ++;
     }

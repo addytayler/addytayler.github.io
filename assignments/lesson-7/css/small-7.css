@@ -37,14 +37,13 @@ h1 {
     font-weight: bold;
 }
 .forecast {
-    margin-left: 512px;
-	background-color: #5cdb95;
 	border: 1px solid #bbb;
-	box-shadow: 0 0 30px #777;
     font-family: monospace;
     padding: 0.5rem;
-    display: inline-block;
+    display: inline;
     text-align: center;
+    background: #4c8008;
+
 }
 .motto {
     font-size: 1.5rem;
@@ -104,12 +103,12 @@ h3 {
     margin-block-end: 1em;
 }
 .weathersummary{
+    font-size: 0.85em;
     text-align: center;
     position: absolute;
     background-color: #8ee4af;
     border: 3px solid #05386b;
     padding: .8rem;
-    display: block;
 }
 #fiveDayForecast {
     text-align: center;
@@ -125,7 +124,7 @@ h3 {
 }
 .Wed, .Thu, .Fri, .Sat, .Sun {
     flex: 1 1 100%;
-    border-top: 1px solid #07304b;
+    border-top: 1px solid#07304b;
     border-bottom: 1px solid #07304b;
     border-left: 1px solid #07304b;
     background-color: #a3e1f8;
