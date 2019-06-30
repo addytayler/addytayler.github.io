@@ -301,8 +301,12 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     color: black;
-
 }
+.forecast-image th, td {
+        padding: 15px;
+        border: 1px solid #000;
+
+    }
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 .rainbow { width: 300px; height: auto; margin: .5rem;}
