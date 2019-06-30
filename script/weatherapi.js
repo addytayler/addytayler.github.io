@@ -4,8 +4,8 @@ weatherRequest.open('GET',apiURLstring, true);
 weatherRequest.send();
 
 weatherRequest.onload =  function () {
-    let weatherData = JSON.parse(weatherRequest.responseText);
-    console.log(weatherData);
+    let forecastData = JSON.parse(weatherRequest.responseText);
+    console.log(forecastData);
 
     var weekday = new Array(7);
     weekday[0] ="Monday";
@@ -21,7 +21,7 @@ weatherRequest.onload =  function () {
     for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.includes("18:00:00")) {
             document.getElementById('degreeforecast' +count).innerHTML=forecastData.list[i].main.temp_max;
-            document.getElementById('imgforecast'+count).setAttribute('src', "https://openweathermap.org/img/w/"+weatherData.weather[0] + ".png");
+            document.getElementById('imgforecast'+count).setAttribute('src', "https://openweathermap.org/img/w/"+ forecastData.list[i].weather[0].icon + ".png");
             document.getElementById('dayforecast' +count).innerHTML=weekday[(new Date().getDay()+count-1)%7];
             count ++;
     }
@@ -30,3 +30,4 @@ weatherRequest.onload =  function () {
     }
     }
 }
+

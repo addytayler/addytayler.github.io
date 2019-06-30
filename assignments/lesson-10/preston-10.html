@@ -37,10 +37,10 @@
             <div class= "mainheader">
                 <section class="weathersummary">
                         <h3>Weather Summary</h3><br>
-                        <p class="label">Currently: <span class="current"></span><span class="value"> &deg;F</span></p><br>
+                        <p class="label">Currently: <span class="value" id="currently"></span><span class="value"> &deg;F</span></p><br>
                         <p class="label">High: <span class="value" id="temperature"></span><span class="value"> &deg;F</span><br><br>
                         <p class="label">Wind Chill: <span class="value" id="windChill"> &deg;F</span><br><br>
-                        <p class="label">Humidity: <span class="humidity"></span><span class="value">%</span><br><br>
+                        <p class="label">Humidity: <span class="value" id="humidity"></span><span class="value">%</span><br><br>
                         <p class="label">Wind Speed: <span class="value" id="windSpeed">5</span><span class="value"> mph</span><br><br>
                 </section>
                 <picture>
@@ -49,68 +49,48 @@
                 </picture>
             </div>
 
-
-
-            <table>
-                <thead>
-                    <tr>
-                        <th id="forecastDay1"></th>
-                        <th id="forecastDay2"></th>
-                        <th id="forecastDay3"></th>
-                        <th id="forecastDay4"></th>
-                        <th id="forecastDay5"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img id="imgDay1" src="" alt="" class="forecast-image"><br>
-                            <p id="degreeDay1"></p> &deg;F</td>
-                        <td>
-                            <img id="imgDay2" src="" alt="" class="forecast-image"><br>
-                            <p id="degreeDay2"></p> &deg;F</td>
-                        <td>
-                            <img id="imgDay3" src="" alt="" class="forecast-image"><br>
-                            <p id="degreeforeDay3"></p> &deg;F</td>
-                        <td>
-                            <img id="imgDay4" src="" alt="" class="forecast-image"><br>
-                            <p id="degreeDay4"></p> &deg;F</td>
-                        <td>
-                            <img id="imgDay5" src=""alt="" class="forecast-image"><br>
-                            <p id="degreeDay5"></p> &deg;F</td>
-                    </tr>
-            </table>
-        </div>
-
-
-            <h3 id="fiveDayForecast">5 Day Forecast</h3>
+        <h3 id="fiveDayForecast">5 Day Forecast</h3>
             <section class="forecast">
                 <table>
-                    <div class="forecastDetails" thead>
+                    <thead>
                         <tr>
-                            <th div class="Wed">Wed</th></div>
-                            <th div class="Thu">Thu</th></div>
-                            <th div class="Fri">Fri</th></div>
-                            <th div class="Sat">Sat</th></div>
-                            <th div class="Sun">Sun</th></div>
+                            <th id="dayforecast1">Wed</th>
+                            <th id="dayforecast2">Thu</th>
+                            <th id="dayforecast3">Fri</th>
+                            <th id="dayforecast4">Sat</th>
+                            <th id="dayforecast5">Sun</th>
                         </tr>
                     </thead>
-                    </div>
                     <tbody>
                         <tr>
-                            <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>89&deg;F</td>
-                            <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>87&deg;F</td>
-                            <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>78&deg;F</td>
-                            <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>75&deg;F</td>
-                            <td><img src="../../images/sunny.1.png" alt ="Sunny" class ="forecast-image"><br>72&deg;F</td>
+                            <td><img src="" id="imgforecast1" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast1"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast2" alt="rainy icon" class="forecast-image"><br>
+                                <p id="degforecast2"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast3" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast3"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast4" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast4"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast5" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast5"></p>&deg;F
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-            </section><br>
+        </div>
+        <br>
             <h6>
                 Current Events in Preston Idaho
             </h6>
-            <p><span id="prestonevents"></span></p><br>
+            <ul>
+                <li class="eventsli"><span id="prestonevents"></span></li>
+                <li class="eventsli"><span id="prestonevents1"></span></li>
+                <li class="eventsli"><span id="prestonevents2"></span></li>
+            </ul>
 
             <article class="town-article">
                 <h3>Comes Home a Champion</h3>
@@ -152,7 +132,6 @@
             </p>
         </footer>
         <script src="../../script/currentdate.js"></script>
-        <script src="../../script/windchill.js"></script>
         <script src="../../script/weatherapi.js"></script>
         <script src="../../script/weathersummary.js"></script>
         <script src="../../script/prestonEvents.js"></script>

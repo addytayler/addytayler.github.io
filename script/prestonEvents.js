@@ -1,18 +1,19 @@
-var section = document.querySelector('main');
-const RequestTownDataURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-const RequestData = new XMLHttpRequest();
-RequestData.open('GET',requestURL);
-RequestData.responseType = 'json';
-RequestData.send();
+const requestTownDataURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestData = new XMLHttpRequest();
+requestData.open('GET',requestTownDataURL);
+requestData.responseType = 'json';
+requestData.send();
 
-RequestData.onload = function() {
-    let prestonData = RequestData.response;
+requestData.onload = function() {
+    let prestonData = requestData.response;
     let towns = prestonData['towns'];
-    let output = document.querySelector('main');
 
     towns.forEach (town => {
         if (town.name= 'Preston') {
-            document.getElementById('prestonevents').innerHTML = town.events;
+            document.getElementById('prestonevents').innerHTML = town.events[0];
+            document.getElementById('prestonevents1').innerHTML = town.events[1];
+            document.getElementById('prestonevents2').innerHTML = town.events[2];
         }
     })
 }
+
