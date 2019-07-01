@@ -8,9 +8,7 @@
     .container{
     grid-template-columns: 1fr 1fr 1fr;
     }
-    .shadow:hover {
-        box-shadow: 0 0 50px #0e6096;
-    }
+
     .homePage {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -22,6 +20,7 @@
         width: 35%;
         height: auto;
         margin: 2em 5em;
+    }
     }
     .wrapper {
         display: grid;
