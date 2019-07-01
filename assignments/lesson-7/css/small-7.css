@@ -345,6 +345,13 @@ figcaption {
     text-align: center;
 }
 figure:hover {
-    box-shadow: 0 0 100px #333;
+    box-shadow: 0 0 50px #333;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 300x 300px 300px;
+    padding: 10px;
+    grid-auto-rows: 300px 300px 300px;
+    align-content: center;
 }
 
