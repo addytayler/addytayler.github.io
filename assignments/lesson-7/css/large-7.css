@@ -17,4 +17,10 @@
         padding: 20px;
         grid-auto-rows: 1fr 1fr 1fr;
     }
+    .articlepicture {
+        float: right;
+        width: 35%;
+        height: auto;
+        margin: 2em 5em;
+    }
 }

@@ -101,6 +101,7 @@ h3 {
     font-size: 1em;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    text-align: center;
 }
 .weathersummary{
     font-size: 0.85em;
@@ -131,15 +132,7 @@ h3 {
     font-size: 16px;
     text-align: center;
 }
-.town-article {
-    padding: 15px;
-    margin: 12px auto 6px;
-    text-align: left;
-    border: 2px solid black;;
-    line-height: 1rem;
-    width: 50%;
-    background-color: powderblue;
-}
+
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -156,9 +149,7 @@ p {
     background-color: #07304b;
     color: white;
 }
-P2 {
-    font-size: 1.5rem;
-}
+
 .footer-bar {
     background-color: #4c8008;;
     text-align: center;
@@ -301,12 +292,50 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     color: black;
+    margin-top: 1.25rem; 
+    margin-bottom: 0.75rem;
 }
 .forecast-image th, td {
         padding: 15px;
         border: 1px solid #000;
 
     }
+.town-article {
+    background-color: skyblue;
+    border: 2px black solid;
+    color: black;
+    width: 85%;
+    display: inline-block;
+    margin-top: 1.5em;
+    
+} 
+.articlepicture {
+        width: 25%;
+        display: block;
+        margin-top: 1em;
+    }
+.author {
+        margin: 1.5em;
+        font-size: .80rem;
+        text-align: center;
+    }
+article p {
+    margin: 2em 3em;
+    text-align: justify;
+    line-height: 2em;
+    }
+ul .eventsli {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-family: monospace;
+} 
+
+
+
+
+
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 .rainbow { width: 300px; height: auto; margin: .5rem;}

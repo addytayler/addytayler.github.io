@@ -9,7 +9,7 @@ requestData.onload = function() {
     let towns = fishHavenData['towns'];
 
     towns.forEach (town => {
-        if (town.name= 'Preston') {
+        if (town.name= 'Fish Haven') {
             document.getElementById('fishHavenEvents').innerHTML = town.events[0];
             document.getElementById('fishHavenEvents1').innerHTML = town.events[1];
             document.getElementById('fishHavenEvents2').innerHTML = town.events[2];
