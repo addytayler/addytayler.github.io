@@ -341,9 +341,10 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
-main {
-    max-width: 300px;
-    align-content: center;
+figcaption {
+    text-align: center;
 }
-
+figure:hover {
+    box-shadow: 0 0 100px #333;
+}
 
