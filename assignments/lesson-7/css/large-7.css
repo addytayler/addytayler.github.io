@@ -21,12 +21,12 @@
         height: auto;
         margin: 2em 5em;
     }
-    }
     .wrapper {
         display: grid;
-        grid-template-columns: 300x 300px 300px;
-        padding: 10px;
+        grid-template-columns: 1fr 1fr 1fr;;
+        padding: 2px;
         grid-auto-rows: 300px 300px 300px;
         align-content: center;
+        grid-gap: 0.3em;
     }
 }
