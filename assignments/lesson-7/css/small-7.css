@@ -362,4 +362,10 @@ figure:hover {
 .forecast table {
     margin: auto;
     text-align: center;
+    max-width: 500px;
+    background-color: rgb(243, 255, 174);
+    color: black;
+}
+.forecast-image {
+    background-color: rgb(199, 203, 255);
 }
