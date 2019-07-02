@@ -21,6 +21,10 @@
         height: auto;
         margin: 2em 5em;
     }
+    .town-article {
+        display: block;
+    }
+
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;;
