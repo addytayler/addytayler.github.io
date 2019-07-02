@@ -305,9 +305,8 @@ h6 {
     border: 2px black solid;
     color: black;
     width: 85%;
-    display: inline-block;
     margin-top: 1.5em;
-     
+    display: block;
 } 
 .articlepicture {
         width: 25%;
@@ -354,5 +353,13 @@ figure:hover {
     grid-auto-rows: 300px 300px 300px;
     align-content: center;
 }
-
-
+.mainheader {
+    position: relative;
+    margin: 1.25em;
+    padding: 0;
+    display: block;
+}
+.forecast table {
+    margin: auto;
+    text-align: center;
+}
