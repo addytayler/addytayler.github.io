@@ -37,13 +37,10 @@ h1 {
     font-weight: bold;
 }
 .forecast {
-	border: 1px solid #bbb;
-    font-family: monospace;
+	font-family: monospace;
     padding: 0.5rem;
     display: inline;
     text-align: center;
-    background: #ff6c09;
-
 }
 .motto {
     font-size: 1.5rem;
@@ -99,12 +96,14 @@ h3 {
     text-align: center;
 }
 .weathersummary{
-    font-size: 0.85em;
+    font-size: 0.35em;
     text-align: center;
     position: absolute;
     background-color: #f3f700;
     border: 3px solid #05386b;
     padding: .8rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
 }
 #fiveDayForecast {
     text-align: center;
@@ -154,10 +153,6 @@ h4 {
     font-weight: bold;
     text-align: center;
     padding: 5px;
-}
-figure {
-    display: block;
-    padding: 10px;
 }
 .stormForm {
     border-radius: 5px;
@@ -221,7 +216,6 @@ input[type=radio] {
 }
 h5 {
     margin: 10px auto;
-    background-color: #5cdb95;
     color: black;
 	border: 2px solid black;
     text-align: center;
@@ -288,6 +282,8 @@ h6 {
     max-width: 85%;
     margin-top: 1.5em;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 } 
 .articlepicture {
         width: 25%;
@@ -320,13 +316,24 @@ figcaption {
 figure:hover {
     box-shadow: 0 0 20px rgb(175, 171, 171);
 }
+figure {
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    align-content: center;
+    margin: auto;
+}
+figure > img {
+    margin: auto;
+}
 .wrapper {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px;
     padding: 10px;
-    grid-auto-rows: 300px 300px 300px;
+    grid-auto-rows: 300px;
     align-content: center;
 }
+
 .mainheader {
     position: relative;
     margin: 1.25em;
@@ -345,4 +352,7 @@ figure:hover {
 }
 .forecast-image {
     background-color: rgb(199, 203, 255);
+}
+.menuItem {
+    display: none;
 }
