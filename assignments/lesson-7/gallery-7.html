@@ -7,26 +7,28 @@
             <meta name="description"
                 content="The assignment preston-4 for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
-        <link href="css/small-7.css" rel="stylesheet">
-        <link href="css/medium-7.css" rel="stylesheet">
-        <link href="css/large-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/small-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/medium-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/large-7.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <img id="tempicon" src="../../images/tempicon.png" alt="Forever Weather">
-            <h1>Forever Weather</h1>
+           <div class="headings">
+               <h1>Forever Weather</h1>
             <div class="motto">Get your weather here forever!</div>
+            </div>
         </header>
         <nav>
             <div class= "site-navigation">
                 <ul>
-                        <li><a href="#" class="menu" title="Menu" onclick="toggleMenu()">≡ Menu</a></li>
-                        <li><a class="inactive menuItem" href="../../assignments/lesson-9/index.html">Home</a></li>
-                        <li><a class="inactive menuItem" href="../../assignments/lesson-10/preston-10.html">Preston</a></li>
-                        <li><a class="inactive menuItem" href="../../assignments/lesson-11/sodaSprings.html">Soda Springs</a></li>
-                        <li><a class="inactive menuItem" href="../../assignments/lesson-11/fishHaven.html">Fish Haven</a></li>
-                        <li><a class="inactive menuItem" href="../../assignments/lesson-8/stormcenter.html">Storm Center</a></li>
-                        <li><a class="active menuItem" href="../../assignments/lesson-7/gallery-7.html">Gallery</a></li>
+                    <li><a href="#" class="menu" title="Menu" onclick="toggleMenu()">≡ Menu</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/lesson-9/index.html">Home</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/lesson-10/preston-10.html">Preston</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/lesson-11/sodaSprings.html">Soda Springs</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/lesson-11/fishHaven.html">Fish Haven</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+                    <li><a class="active menuItem" href="../../assignments/lesson-7/gallery-7.html">Gallery</a></li>
                 </ul>
             </div>
         </nav>
@@ -72,26 +74,34 @@
                 </section>    
             </main>
             
-        <div class="contactsection">
-            <strong>Forever Weather</strong><br>
-            <br> <img class="smallesticon" src="../../images/location.png" alt="location pointer link" align:middle><br>
-            &nbsp;30 N 1st E
-            <br> Preston, ID 83263
-            <br>
-            <br> &phone; &nbsp; 999.999.9999
-            <br> &#9993: &nbsp; foreverweather@tws.com
-            <br></br>
-            <img class="smallicon" src="../../images/facebook.png" alt="facebook link">
-            <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link">
-            <img class="smallicon" src="../../images/twitter.png" alt="twitter link">
-        </div>
-        <footer>
-            <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>
-                <span id="currentdate"></span>
-                <script src="script/currentdate.js"></script>
-            </p>
-        </footer>
-        <script src="../../script/hamburger.js"></script>
-    </body>
-</html>
-
+            <div class="contactsection">
+                <strong>Forever Weather</strong><br>
+                <br> <img class="location" src="../../images/location.png" alt="location pointer link">
+                <p2>&nbsp; 30 N 1st E</p2>
+                <br> Preston, ID 83263
+                <br>
+                <br> &phone; &nbsp; 999.999.9999
+                <br> &#9993; &nbsp; foreverweather@tws.com
+                <br>
+                <div class="media">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="smallicon" src="../../images/facebook.png" alt="facebook link"></a>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link"></a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img class="smallicon" src="../../images/twitter.png" alt="twitter link"></a>
+                </div>
+            </div>
+            <footer>
+                <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>
+                    <span id="currentdate"></span>
+                    <script src="../../script/hamburger.js"></script>
+                </p>
+            </footer>
+            <script src="../../script/currentdate.js"></script>
+            <script src="../../script/preston5day.js"></script>
+            <script src="../../script/prestonweather.js"></script>
+            <script src="../../script/prestonEvents.js"></script>
+        </body>
+    </html>
+    
