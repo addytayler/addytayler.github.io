@@ -332,6 +332,7 @@ figure > img {
     padding: 10px;
     grid-auto-rows: 300px;
     align-content: center;
+    margin-left: auto;
 }
 
 .mainheader {
