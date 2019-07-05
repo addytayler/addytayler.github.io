@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Forever Weather | Town of Preston | Weather Conditions and Forecast</title>
+            <meta name="description"
+                content="The assignment preston-4 for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <link href="../lesson-7/css/small-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/large-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/medium-7.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="tempicon" src="../../images/tempicon.png" alt="Forever Weather">
+           <div class="headings">
+               <h1>Forever Weather</h1>
+            <div class="motto">Get your weather here forever!</div>
+            </div>
+        </header>
+        <nav>
+            <div class= "site-navigation">
+                <ul>
+                    <li><a href="#" class="menu" title="Menu" onclick="toggleMenu()">≡ Menu</a></li>
+                    <li><a class="active menuItem" href="../../assignments/weathersite/index.html">Home</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/preston.html">Preston</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/sodasprings.html">Soda Springs</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/fishhaven.html">Fish Haven</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/stormcenter.html">Storm Center</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+                <section class="homePage">
+                        <div class="townPage">
+                            <div>
+                            <h3>
+                                <span id="PrestonName"></span>
+                            </h3>
+                            <p><span id="PrestonMotto"></span>"</p>
+                            <p><strong>Year Founded:</strong>
+                                <span id="PrestonYearFounded"></span>
+                            </p>
+                            <p><strong>Current Population:</strong>
+                                <span id="PrestonCurrentPopulation"></span>
+                            </p>
+                            <p><strong>Average Rainfall:</strong>
+                                <span id="PrestonAverageRainFall"></span>
+                            </p>
+                            <br>
+                        </div>
+                            <img id="franklins" src="../../images/franklinsmall.png" alt="Franklin">
+                        </div>
+                        <div class="townPage">
+                            <div>
+                            <h3>
+                                <span id="SodaSpringsName"></span>
+                            </h3>
+                            <p>"<span id="SodaSpringsMotto">"</span></p>
+                            <p><strong>Year Founded:</strong>
+                                <span id="SodaSpringsYearFounded"></span>
+                            </p>
+                            <p><strong>Current Population:</strong>
+                                <span id="SodaSpringsCurrentPopulation"></span>
+                            </p>
+                            <p><strong>Average Rainfall:</strong>
+                                <span id="SodaSpringsAverageRainFall"></span>
+                            </p>
+                            <br>
+                        </div>
+                            <img id="greenvilles" src="../../images/greenvillesmall.jpg" alt="Greenville">
+                        </div>
+                        <div class="townPage">
+                            <div>
+                            <h3>
+                                <span id="FishHavenName"></span>
+                            </h3>
+                            <p>"<span id="FishHavenMotto">"</span>
+                            </p>
+                            <p><strong>Year Founded:</strong>
+                                <span id="FishHavenYearFounded"></span>
+                            </p>
+                            <p><strong>Current Population:</strong>
+                                    <span id="FishHavenCurrentPopulation"></span>
+                            </p>
+                            <p><strong>Average Rainfall:</strong>
+                                <span id="FishHavenAverageRainFall"></span>
+                            </p>
+                            <br>
+                        </div>
+                            <img id="springfields" src="../../images/springfieldsmall.png" alt="Springfield">
+                        </div>
+                    </section>
+        </main>
+        <div class="contactsection">
+                <strong>Forever Weather</strong><br>
+                <br> <img class="location" src="../../images/location.png" alt="location pointer link">
+                &nbsp;30 N 1st E
+                <br> Preston, ID 83263
+                <br>
+                <br> &phone; &nbsp; 999.999.9999
+                <br> &#9993; &nbsp; foreverweather@tws.com
+                <br>
+                <div class="media">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="smallicon" src="../../images/facebook.png" alt="facebook link"></a>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link"></a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img class="smallicon" src="../../images/twitter.png" alt="twitter link"></a>
+                </div>
+            </div>
+            <footer>
+                <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>
+                    <span id="currentdate"></span>
+                    <script src="../../script/hamburger.js"></script>
+                </p>
+            </footer>
+            <script src="../../script/currentdate.js"></script>
+            <script src="../../js/adjustRating.js"></script>
+            <script src="../../js/towns.js"></script>
+        </body>
+    </html>

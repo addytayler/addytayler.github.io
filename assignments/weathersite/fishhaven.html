@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Forever Weather | Town of Preston | Weather Conditions and Forecast</title>
+            <meta name="description"
+                content="The assignment preston-4 for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <link href="../lesson-7/css/small-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/medium-7.css" rel="stylesheet">
+        <link href="../lesson-7/css/large-7.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="tempicon" src="../../images/tempicon.png" alt="Forever Weather">
+           <div class="headings">
+               <h1>Forever Weather</h1>
+            <div class="motto">Get your weather here forever!</div>
+            </div>
+        </header>
+        <nav>
+            <div class= "site-navigation">
+                <ul>
+                    <li><a href="#" class="menu" title="Menu" onclick="toggleMenu()">≡ Menu</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/index.html">Home</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/preston.html">Preston</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/sodasprings.html">Soda Springs</a></li>
+                    <li><a class="active menuItem" href="../../assignments/weathersite/fishhaven.html">Fish Haven</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/stormcenter.html">Storm Center</a></li>
+                    <li><a class="inactive menuItem" href="../../assignments/weathersite/gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <h2>Fish Haven Idaho</h2>
+            <div class= "mainheader">
+                <section class="weathersummary">
+                        <h3>Weather Summary</h3><br>
+                        <p class="label">Currently: <span class="value" id="currently"></span><span class="value"> &deg;F</span></p><br>
+                        <p class="label">High: <span class="value" id="temperature"></span><span class="value"> &deg;F</span><br><br>
+                        <p class="label">Wind Chill: <span class="value" id="windChill"> &deg;F</span><br><br>
+                        <p class="label">Humidity: <span class="value" id="humidity"></span><span class="value">%</span><br><br>
+                        <p class="label">Wind Speed: <span class="value" id="windSpeed">5</span><span class="value"> mph</span><br><br>
+                </section>
+                <picture>
+                    <img src="../../images/fishHaven.png" alt="Preston Town" class="photo">
+                </picture>
+            </div>
+
+        <h3 id="fiveDayForecast">5 Day Forecast</h3>
+            <section class="forecast">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="dayforecast1">Wed</th>
+                            <th id="dayforecast2">Thu</th>
+                            <th id="dayforecast3">Fri</th>
+                            <th id="dayforecast4">Sat</th>
+                            <th id="dayforecast5">Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="" id="imgforecast1" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast1"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast2" alt="rainy icon" class="forecast-image"><br>
+                                <p id="degforecast2"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast3" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast3"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast4" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast4"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast5" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast5"></p>&deg;F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <br>
+            <h6>
+                Current Events in Fish Haven Idaho
+            </h6>
+            <ul>
+                <li class="eventsli"><span id="prestonevents"></span></li>
+                <li class="eventsli"><span id="prestonevents1"></span></li>
+                <li class="eventsli"><span id="prestonevents2"></span></li>
+            </ul>
+
+            <article class="town-article">
+                    <img src="../../images/fishhavenarticle.png" class="articlepicture" alt="Article Image">
+                    <h3>Little Fish Haven</h3>
+                    <div class="author">by Kurt Friedemann</div>
+                        <p>It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by high desert mountains 
+                            and bordered by the shores of a vast natural lake. In winter the hills outside this small paradise echo with the sharp whine 
+                            of snow machines and in the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+                            But they don't live there. It's different living in Fish Haven. The little town sits just on the Idaho side of U.S. Highway 
+                            89 tucked in between Bear Lake's west side and the mountains. It's not technically a city or a town, it's really nothing more 
+                            than the proverbial wide spot in the road. But people call it a town even though there isn't a city council, just the Bear 
+                            Lake County Commission that oversees development there. Only 50 to 100 people call it home, depending on the weather.</p>
+                </article>
+        </main>
+        <div class="contactsection">
+            <strong>Forever Weather</strong><br>
+            <br> <img class="location" src="../../images/location.png" alt="location pointer link">
+            <p2>&nbsp;</p2>30 N 1st E
+            <br> Preston, ID 83263
+            <br>
+            <br> &phone; &nbsp; 999.999.9999
+            <br> &#9993; &nbsp; foreverweather@tws.com
+            <br>
+            <div class="media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="smallicon" src="../../images/facebook.png" alt="facebook link"></a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                    <img class="smallicon" src="../../images/pinterest.png" alt="pinterest link"></a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img class="smallicon" src="../../images/twitter.png" alt="twitter link"></a>
+            </div>
+        </div>
+        <footer>
+            <p class="footer-bar">&copy;2020 Forever Weather | Attributions | Addy King<br>
+                <span id="currentdate"></span>
+                <script src="../../script/hamburger.js"></script>
+            </p>
+        </footer>
+        <script src="../../script/currentdate.js"></script>
+        <script src="../../script/preston5day.js"></script>
+        <script src="../../script/prestonweather.js"></script>
+        <script src="../../script/prestonEvents.js"></script>
+    </body>
+</html>
