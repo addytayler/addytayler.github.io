@@ -234,6 +234,7 @@ h5 {
     padding: 10px;
     margin: 10px;
     grid-gap: 10px;
+    max-width: 75%;
 }
 .navigation li {
     display: none;
