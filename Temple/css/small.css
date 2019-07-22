@@ -83,13 +83,11 @@ nav a:hover {
 
 /* Temple gallery */
 .templePictures {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2px;
-    text-align: center;
+    display: inline;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .templePictures img {
     margin-top: 8px;
@@ -97,13 +95,14 @@ nav a:hover {
 }
 /* Home page article*/
 .article {
-    background-color: #21a398;
     text-align: center;
     color: black;
-    border: 3px solid rgb(0, 0, 0);
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+.homePageTemple {
+    border: 3px solid rgb(0, 0, 0);
 }
 .specialServices, .freeAmenities {
     background-color: rgb(238, 236, 236);
@@ -111,8 +110,32 @@ nav a:hover {
     margin: 15px;
 
 }
-h3 {
+h3, h2 {
     text-align: center;
     font-size:25px;
     font-family: 'Cinzel', serif;
+}
+p {
+    text-align: center;
+}
+/* reservation page*/
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=range], input[type=submit] {
+    width: 30%;
+    padding: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+.reservationMade {
+    text-align: center;
+    color: black;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="The final project for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+           <div class="heading">
+               <h1>Temple Inn & Suites</h1>
+            </div>
+        </header>
+        <nav>
+            <div class= "site-navigation">
+                <ul>
+                    <li><a class="hamburger" href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a class="active menuItem" href="../Temple/home.html">Home</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/temple.html">Temple</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/reservation.html">Reservation</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/services.html">Services</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="templePictures">
+                <section>
+                    <figure>
+                        <img src="images/homeTemple2.png" alt="Mesa, Arizona Temple">
+                    </figure>
+                    <h3>Mesa, Arizona Temple</h3>
+                    <p>101 S Lesueur, Mesa, AZ 85204</p>
+                    <p>Phone: (480) 833-1211</p>
+                    <p>Email: AZtemples@lds.org</p>
+                    <p>Services: 
+                        <ul style="list-style-type:none;">
+                            <li>Clothing rental available</li>
+                            <li>Cafeteria available</li>
+                            <li>No patron housing available</li>
+                            <li>Distribution center nearby</li>
+                        </ul> 
+                    </p>
+                    <p>History:
+                        <ul style="list-style-type:none;">
+                            <li>Announced:</li>
+                            <li>Groundbbreaking:</li>
+                            <li>Dedicatory Prayer:</li>
+                        </ul> 
+                    </p>
+                    <p>Sessions:</p>
+                    <p>Current Weather: <span id="tempp">76</span>&deg;F</p>
+                </section>  
+                <section>
+                    <figure>
+                        <img src="images/homeTemple3.png" alt="Phoenix, Arizona Temple">
+                    </figure>
+                    <h3>Phoenix, Arizona Temple</h3>
+                    <p>5220 W Pinnacle Peak Rd. Phoenix AZ 85310</p>
+                    <p>Phone: (623) 474-9500</p>
+                    <p>Email: AZtemples@lds.org</p>
+                    <p>Services: 
+                        <ul style="list-style-type:none;">
+                            <li>No clothing rental available</li>
+                            <li>No cafeteria available</li>
+                            <li>No patron housing available</li>
+                            <li>No distribution center nearby</li>
+                        </ul> 
+                    </p>
+                    <p>History:
+                        <ul style="list-style-type:none;">
+                            <li>Announced:</li>
+                            <li>Groundbbreaking:</li>
+                            <li>Dedicatory Prayer:</li>
+                        </ul> 
+                    </p>
+                    <p>Sessions:</p>
+                    <p>Current Weather: <span id="tempp">76</span>&deg;F</p>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/homeTemple4.png" alt="Tuscon, Arizona Temple">
+                    </figure>
+                    <h3>Mesa, Arizona Temple</h3>
+                    <p>101 S Lesueur, Mesa, AZ 85204</p>
+                    <p>Phone: (480) 833-1211</p>
+                    <p>Email: AZtemples@lds.org</p>
+                    <p>Services: 
+                        <ul style="list-style-type:none;">
+                            <li>lothing rental available</li>
+                            <li>Cafeteria available</li>
+                            <li>NO patron housing available</li>
+                            <li>Distribution center nearby</li>
+                        </ul> 
+                    </p>
+                    <p>History:
+                        <ul style="list-style-type:none;">
+                            <li>Announced:</li>
+                            <li>Groundbbreaking:</li>
+                            <li>Dedicatory Prayer:</li>
+                        </ul> 
+                    </p>
+                    <p>Sessions:</p>
+                    <p>Current Weather: <span id="tempp">76</span>&deg;F</p>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/homeTemple1.png" alt="Gilbert, Arizona Temple">
+                    </figure>
+                    <h3>Mesa, Arizona Temple</h3>
+                    <p>101 S Lesueur, Mesa, AZ 85204</p>
+                    <p>Phone: (480) 833-1211</p>
+                    <p>Email: AZtemples@lds.org</p>
+                    <p>Services: 
+                        <ul style="list-style-type:none;">
+                            <li>lothing rental available</li>
+                            <li>Cafeteria available</li>
+                            <li>NO patron housing available</li>
+                            <li>Distribution center nearby</li>
+                        </ul> 
+                    </p>
+                    <p>History:
+                        <ul style="list-style-type:none;">
+                            <li>Announced:</li>
+                            <li>Groundbbreaking:</li>
+                            <li>Dedicatory Prayer:</li>
+                        </ul> 
+                    </p>
+                    <p>Sessions:</p>
+                    <p>Current Weather: <span id="tempp">76</span>&deg;F</p>
+                </section>
+            </div>
+        </main>
+        <section>
+            <div class="location">
+                <picture>
+                    <img class="map" src="images/map.png" alt="Map">
+                </picture>
+            </div>
+            <div class="contactsection">
+                <h4>Temple Inn & Suites (Headquarters)</h4>
+                <p>50 N West Temple</p>
+                <p>Salt Lake City, UT 84150</p>
+                <p>&phone; &nbsp; 801.240.2640</p>
+                <p>&#9993; &nbsp; templeInnSuites@lds.org</p>
+            <div class="media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="smallicon" src="../Temple/images/facebooklogo.png" alt="facebook link"></a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                    <img class="smallicon" src="../Temple/images/pinterestlogo.png" alt="pinterest link"></a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img class="smallicon" src="../Temple/images/twitterlogo.png" alt="twitter link"></a>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <p class="footerPart">&copy;2019 Temple Inn & Suites | Attributions | Addy King</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="The final project for Addy in CIT 230: Web Front-end Development at Brigham Young University-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+           <div class="heading">
+               <h1>Temple Inn & Suites</h1>
+            </div>
+        </header>
+        <nav>
+            <div class= "site-navigation">
+                <ul>
+                    <li><a class="hamburger" href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a class="active menuItem" href="../Temple/home.html">Home</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/temple.html">Temple</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/reservation.html">Reservation</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/services.html">Services</a></li>
+                    <li><a class="inactive menuItem" href="../Temple/contact.html">Contact</a></li>
+                    <ul class="submenu">
+                        <li><a title="Receptions" href="receptions.html">Receptions</a></li>
+                        <li><a title="Full Time Missionary" href="full-time-missionary.html">Full Time Missionary</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <h2>Plan your getaway today</h2>
+
+            <div class= "stormForm">
+                <form action="reservationMade.html">
+                        Check-In Date:<br><input type="date" id="checkIn" name="arrive" value=""> <br>
+                        Check-Out Date:<br> <input type="date" id="checkOut" name="leave" value=""> <br>
+                        Room Type:<br>
+                            <select>
+                                <option value="king">1 King Bed</option>
+                                <option value="queen1">1 Queens Beds</option>
+                                <option value="queen2">2 Queens Beds</option>
+                                <option value="twin">2 Twin Beds</option>
+                            </select><br>
+                        <br>Full Name* <br><input type="text" required pattern="[A-Za-z\s]{5,}" name="fullName"><br>
+                        Email <br><input type="email" placeholder="username@gmail.com" name="email"><br>
+                        Phone Number* <br><input type="tel" required name="phoneNumber"><br>
+                        <div><input type="submit" class="submit" value="Make Reservation"></div>
+                </form>
+                </div>
+         </main>
+        <section>
+        <div class="location">
+            <picture>
+                <img class="map" src="images/map.png" alt="Map">
+            </picture>
+        </div>
+        <div class="contactsection">
+            <h4>Temple Inn & Suites (Headquarters)</h4>
+            <p>50 N West Temple</p>
+            <p>Salt Lake City, UT 84150</p>
+            <p>&phone; &nbsp; 801.240.2640</p>
+            <p>&#9993; &nbsp; templeInnSuites@lds.org</p>
+        <div class="media">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="smallicon" src="../Temple/images/facebooklogo.png" alt="facebook link"></a>
+            <a href="https://www.pinterest.com/" target="_blank">
+                <img class="smallicon" src="../Temple/images/pinterestlogo.png" alt="pinterest link"></a>
+            <a href="https://www.twitter.com/" target="_blank">
+                <img class="smallicon" src="../Temple/images/twitterlogo.png" alt="twitter link"></a>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footerPart">&copy;2019 Temple Inn & Suites | Attributions | Addy King</p>
+    </footer>
+</body>
+</html>
