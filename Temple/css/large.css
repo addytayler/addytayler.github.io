@@ -6,4 +6,14 @@
     header {
         max-width: 100%;
     }
+    .navigation li:first-child { 
+        display: none;	
+        padding: 1rem;
+    }
+    .navigation li { 
+        display: inline-block;
+        padding: .2rem; 
+        margin-right: .5rem;
+        
+    }	
 }

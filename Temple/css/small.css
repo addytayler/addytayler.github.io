@@ -33,31 +33,36 @@ nav {
     color: black;
 	border: 3px solid rgb(0, 0, 0);
 }
-nav ul {
-    list-style-type: none;
-    display: block;
-}
-nav ul li{
-    display: inline;
-}
-nav ul li a {
-    padding: .75rem;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
 nav a:hover {
     background: white;
+}
+.navigation {
+    list-style: none; 
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+.navigation li { 
+    display: none;
+    align-content: center;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation a {	
+    display: block;	
+    text-decoration: none;
+    color: #fff; 
+    padding: .5rem;	
+    text-align: center;	
 }
 
 /* Footer and contact */
 .contactsection {
     padding: 1.5rem;
-    text-align: left;
+    text-align: center;
     border: 3px solid black;;
-    max-width:650px;
+    max-width: 450px;
     margin: 10px auto;
     font-weight: bold;
     font-size: 16px;
@@ -70,11 +75,6 @@ nav a:hover {
     max-width: 75%;
     font-weight: bold;
     font-size: 18px;
-}
-.location {
-    float: right;
-    width: 50%;
-    padding: 10px;
 }
 .smallicon {
     width: 35px;
@@ -89,6 +89,7 @@ nav a:hover {
     margin-right: auto;
     text-align: center;
 }
+
 .templePictures img {
     margin-top: 8px;
     border: 5px solid black;
