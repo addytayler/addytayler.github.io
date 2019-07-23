@@ -1,10 +1,10 @@
-let weatherSummary = new XMLHttpRequest();
-let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/weather?id=5430806&units=imperial&APPID=a292f85c385e59f13bb3c030b904c97f';
-weatherSummary.open('Get',apiURLstring2, true);
-weatherSummary.send();
+let weatherSummary1 = new XMLHttpRequest();
+let apiURLstring1 = 'https://api.openweathermap.org/data/2.5/weather?id=5430806&units=imperial&APPID=a292f85c385e59f13bb3c030b904c97f';
+weatherSummary1.open('Get',apiURLstring1, true);
+weatherSummary1.send();
 
-weatherSummary.onload = function() {
-    let weatherData = JSON.parse(weatherSummary.responseText);
-    console.log (weatherData);
-    document.getElementById('currentlyMesa').innerHTML = weatherData.main.temp;
+weatherSummary1.onload = function() {
+    let weatherData1 = JSON.parse(weatherSummary1.responseText);
+    console.log (weatherData1);
+    document.getElementById('currentlyMesa').innerHTML = weatherData1.main.temp;
 }

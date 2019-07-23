@@ -1,10 +1,10 @@
-let weatherSummary = new XMLHttpRequest();
+let weatherSummary2 = new XMLHttpRequest();
 let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/weather?id=5318313&units=imperial&APPID=a292f85c385e59f13bb3c030b904c97f';
-weatherSummary.open('Get',apiURLstring2, true);
-weatherSummary.send();
+weatherSummary2.open('Get',apiURLstring2, true);
+weatherSummary2.send();
 
-weatherSummary.onload = function() {
-    let weatherData = JSON.parse(weatherSummary.responseText);
-    console.log (weatherData);
-    document.getElementById('currentlyTucson').innerHTML = weatherData.main.temp;
+weatherSummary2.onload = function() {
+    let weatherData2 = JSON.parse(weatherSummary2.responseText);
+    console.log (weatherData2);
+    document.getElementById('currentlyTucson').innerHTML = weatherData2.main.temp;
 }
