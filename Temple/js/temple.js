@@ -1,6 +1,6 @@
 let section = document.querySelector('section');
 
-const requestURL = "https://addytayler.github.io/temple-inn/js/temple-info.json";
+const requestURL = "https://addytayler.github.io/Temple/js/templeInfo.json";
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
