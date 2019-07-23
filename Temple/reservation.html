@@ -32,23 +32,42 @@
         <main>
             <h2>Plan your getaway today</h2>
 
-            <div class= "stormForm">
+            <div class= "reservationForm">
                 <form action="reservationMade.html">
-                        Check-In Date:<br><input type="date" id="checkIn" name="arrive" value=""> <br>
-                        Check-Out Date:<br> <input type="date" id="checkOut" name="leave" value=""> <br>
-                        Room Type:<br>
+                        Location:<br>
                             <select>
+                                <option value="select">Select A Location</option>
+                                <option value="Mesa">Mesa, Arizona</option>
+                                <option value="Phoenix">Phoenix, Arizona</option>
+                                <option value="Tucson">Tucson, Arizona</option>
+                                <option value="Gilbert">Gilbert, Arizona</option>
+                            </select><br>
+                        <br>Check-In Date:<br><input type="date" id="checkIn" name="arrive" value=""> <br>
+                        Check-Out Date:<br> <input type="date" id="checkOut" name="leave" value=""> <br>
+                        Number of Rooms:<br>
+                            <select>
+                                <option value="select">Select Rooms</option>
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="four">4</option>
+                            </select><br>
+                        <br>Room Type:<br>
+                            <select>
+                                <option value="select">Select Room Type</option>
                                 <option value="king">1 King Bed</option>
-                                <option value="queen1">1 Queen Beds</option>
+                                <option value="queen1">1 Queen Bed</option>
                                 <option value="queen2">2 Queen Beds</option>
                                 <option value="twin">2 Twin Beds</option>
                             </select><br>
                         <br>Full Name* <br><input type="text" required pattern="[A-Za-z\s]{5,}" name="fullName"><br>
-                        Email <br><input type="email" placeholder="username@gmail.com" name="email"><br>
+                        Email* <br><input type="email" placeholder="username@gmail.com" required name="email"><br>
                         Phone Number* <br><input type="tel" required name="phoneNumber"><br>
+                        Home State <br><input type="text"><br>
+                        Any Special Accommodations / Comments: <br> <input type="text"><br>
                         <div><input type="submit" class="submit" value="Make Reservation"></div>
                 </form>
-                </div>
+            </div>
          </main>
         <section>
 

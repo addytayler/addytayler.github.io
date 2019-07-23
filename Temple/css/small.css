@@ -126,7 +126,7 @@ p {
 }
 /* reservation page*/
 input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date] {
-    width: 30%;
+    width: 50%;
     padding: 12px;
     border: 2px solid black;
     box-sizing: border-box;
@@ -138,12 +138,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .reservationMade {
     text-align: center;
     color: black;
-    max-width: 50%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+.reservationForm {
+    text-align: center;
 }
 /* contact page */
 .contactInfo {
