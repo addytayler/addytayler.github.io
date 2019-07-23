@@ -171,3 +171,26 @@ h5 {
     border: 5px solid black;
     max-width: 375px;
 }
+/* reception */
+.wedding {
+    display: inline;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.wedding img {
+    margin-top: 8px;
+    border: 5px solid black;
+    max-width: 375px;
+}
+.column {
+    display: inline;
+    width: 60%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
