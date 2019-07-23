@@ -25,6 +25,9 @@ header, nav, footer {
     align-items: center;
     justify-content: center;
 }
+h6 {
+    font-size: 15px;
+}
 
  /* Navigation*/
 nav {
