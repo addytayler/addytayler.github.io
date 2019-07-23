@@ -125,7 +125,7 @@ p {
     text-align: center;
 }
 /* reservation page*/
-input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=submit] {
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date] {
     width: 30%;
     padding: 12px;
     border: 2px solid black;
@@ -144,4 +144,30 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+/* contact page */
+.contactInfo {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+}
+.contactForm {
+    text-align: center;
+}
+/* missionary page*/
+.suites {
+    display: inline;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.suites img {
+    margin-top: 8px;
+    border: 5px solid black;
+    max-width: 375px;
 }
